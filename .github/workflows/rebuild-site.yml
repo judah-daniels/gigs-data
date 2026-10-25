@@ -4,6 +4,7 @@ name: rebuild-site
 on:
   push:
     branches: [main]
+  workflow_dispatch:          # the Actions tab's "Run workflow": a rebuild by hand
 permissions: {}
 jobs:
   rebuild:
