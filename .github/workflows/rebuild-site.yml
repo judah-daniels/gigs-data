@@ -1,0 +1,17 @@
+# A new gig list asks Cloudflare Pages to rebuild judahdaniels.com. The deploy hook's URL
+# is the repo secret PAGES_DEPLOY_HOOK; anyone holding it can only start a rebuild.
+name: rebuild-site
+on:
+  push:
+    branches: [main]
+permissions: {}
+jobs:
+  rebuild:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 2
+    steps:
+      - env:
+          HOOK: ${{ secrets.PAGES_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then echo "no PAGES_DEPLOY_HOOK secret yet: nothing to do"; exit 0; fi
+          curl -fsS -X POST "$HOOK" > /dev/null && echo "rebuild requested"
