@@ -4,6 +4,7 @@ name: rebuild-site
 on:
   push:
     branches: [main]
+    paths-ignore: ['covers/**']   # Reel covers Gigs posts to Instagram: not the site's
   workflow_dispatch:          # the Actions tab's "Run workflow": a rebuild by hand
 permissions: {}
 jobs:
