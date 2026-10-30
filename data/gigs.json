@@ -1,17 +1,5 @@
 [
   {
-    "id": "2026-10-29-st-marys-church-aylesbury",
-    "date": "2026-10-29",
-    "start": "19:30",
-    "end": "22:15",
-    "venue": "St Mary's Church",
-    "area": "Aylesbury",
-    "blurb": "Judah Daniels Trio, with Josh Vadiveloo on double bass and Luke McCarthy on drums. Tickets £22 including booking fee",
-    "tickets": "https://www.ents24.com/aylesbury-events/jazzupfront-st-marys-church/judah-daniels-trio/7513839",
-    "poster": "gigs/2026-10-29-st-marys-church-aylesbury/93bc068829e2",
-    "posterAlt": "Poster: Thu 29 Oct 2026, St Mary's Church, Aylesbury"
-  },
-  {
     "id": "2026-11-05-peggys-skylight",
     "date": "2026-11-05",
     "start": "20:00",
@@ -60,5 +48,17 @@
     "area": "Dalston",
     "blurb": "Solo piano",
     "ticketsMode": "free"
+  },
+  {
+    "id": "2026-10-29-st-marys-church-aylesbury",
+    "date": "2026-10-29",
+    "start": "19:30",
+    "end": "22:15",
+    "venue": "St Mary's Church",
+    "area": "Aylesbury",
+    "blurb": "Judah Daniels Trio, with Josh Vadiveloo on double bass and Luke McCarthy on drums. Tickets £22 including booking fee",
+    "tickets": "https://www.ents24.com/aylesbury-events/jazzupfront-st-marys-church/judah-daniels-trio/7513839",
+    "poster": "gigs/2026-10-29-st-marys-church-aylesbury/93bc068829e2",
+    "posterAlt": "Poster: Thu 29 Oct 2026, St Mary's Church, Aylesbury"
   }
 ]
